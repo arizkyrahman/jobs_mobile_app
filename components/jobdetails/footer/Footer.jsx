@@ -14,6 +14,10 @@ const Footer = () => {
           style={styles.likeBtnImage}
         />
       </TouchableOpacity>
+
+      <TouchableOpacity style={styles.applyBtn}>
+        <Text style={styles.applyBtnText}>Apply for job</Text>
+      </TouchableOpacity>
     </View>
   );
 };
